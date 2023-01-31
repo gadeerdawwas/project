@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+.input{
+    @apply block py-2.5 px-2 rounded-lg w-full text-sm text-gray-900 bg-white border-0 border-b-2 border-gray-300 appearance-none dark:text-gray-900 dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600
+}
+
+.submit{
+    @apply text-white bg-blue-700 hover:bg-blue-800 hover:text-gray-200 dark:hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+}
+
+.success{
+    @apply p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800
+}
+
+.danger{ 
+    @apply p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800
+}
+
+.form-text{
+    @apply text-orange-600
+}
+
+.reading_header{
+    @apply text-blue-700 text-xl font-bold
+}
+
+.radio{
+    @apply w-4 h-4 border-gray-300 focus:ring-2 focus:ring-blue-300 dark:focus:ring-blue-600 dark:focus:bg-blue-600 dark:bg-gray-700 dark:border-gray-600
+}
+
+.tab_cover{
+    @apply text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700
+}
+
+.tab_ul{
+    @apply flex flex-wrap -mb-px
+}
+
+.unselected_tab{
+    @apply inline-block p-4 rounded-t-lg border-b-2 border-transparent hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300
+}
+
+.selected_tab{
+    @apply inline-block p-4 text-blue-600 rounded-t-lg border-b-2 border-blue-600 active:dark:text-blue-500 dark:border-blue-500
+}
+
+.table_wrapper{
+    @apply relative overflow-x-clip shadow-md sm:rounded-lg
+    /*@apply flex flex-col items-center justify-center*/
+}
+
+.table{
+    @apply w-full px-6 text-sm text-center text-gray-500 dark:text-gray-400
+    /*@apply w-full h-full overflow-auto rounded-sm border-collapse border-2 border-gray-300 dark:border-gray-600*/
+}
+
+.table_header{
+    @apply text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400
+    /*@apply bg-gray-100 dark:bg-gray-700*/
+}
+
+.form_wrapper{
+    @apply relative overflow-x-clip shadow-md sm:rounded-lg p-3 bg-yellow-200
+}
+
+
+/***********************
+*                      *
+*  this for pagination *
+*                      *
+************************/
+.pagination{
+    @apply w-full inline-flex overflow-x-auto my-5
+}
+
+.page-item{
+    @apply bg-blue-600 min-w-fit mx-2 text-white  rounded-md
+}
+
+.page-link{
+    @apply block p-2 px-4
+}
+.disabled{
+    @apply bg-gray-300 text-black
+}
+
+.active{
+    @apply bg-orange-700
+}
+
+.drop-zone {
+    max-width: 700px;
+    height: 400px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    color: #cccccc;
+    border: 4px dashed #009578;
+    border-radius: 10px;
+}
+
+.drop-zone--over {
+    border-style: solid;
+}
+
+.drop-zone__input {
+    display: none;
+}
+
+.drop-zone__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-size: cover;
+    position: relative;
+}
+
+.drop-zone__thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    text-align: center;
+}
+
+@layer base {
+    * {
+        font-family: 'Cairo', sans-serif;
+    }
+}
+

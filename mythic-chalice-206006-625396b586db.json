@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "mythic-chalice-206006",
+  "private_key_id": "625396b586db4513e991f1788cf89b6cb28b13db",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDUGNJN2a0yg164\ndQzvG9uSw0MUTyNEbmBXqUdCZvBOxHnkKAemt1Okj4ICRsBrprLk8Ui+sRs20AhP\npg9BhryOjkk7faHGQwkzia+YYR7++S4Q8mR0prk8Cnz1BCSFIn/2625zMMTNKDm/\n2RBa3H8wLof92PJ/2QRL8M516Vu224e9bJ6gtBKuuvKCyMTavRrlwGsM2jVF+gEi\nJ+6oa5uZKRTWV+Hy39IUvRTGF6dx86EO3ENwFs1wZe20pnvn8gEImtCx+RLwukrZ\nd+4QPmiMRLJpD9yeS6KgH7ZVee/Q10Z6omBQzgoK5sB3vwthffUSrmfUo46rkgD3\n5B1KsrcrAgMBAAECggEAA+FcX54+4/CxV/CURv+cecfmv0VfYM4gJxpqulVFyjsf\n+8ObuDocZqNVfpMqzA1lsniTmyGEXPFbZZGlL862Pmlt/4+h2Q266l13f/Mu7P1E\nEX1NxzCRrP6IILdtr53c93iBMcxPnW1B+TeQbAkiro/7XvKMJTikMnt6W3/kdKjw\n/XhIe4Ddn+P+hnfxPZrqlTrhp3cXrNRccYBc8EODUJ3mKuLvQTPH/UaVnJiupklk\nel9EHOyP8Gk3mTkvd88KULiNudcK/hQImZv9aJ1IqR0wMcHYlk9xikJ1TyHtBtC5\nm4bVum3sg9BJPsy+fHoeJgwtPqCXw75Mj/Ylr95yuQKBgQD22Ak7bri1UmeMcmS7\nR20cyuaCKfLR8U9M6sJsrXThbiRjCWRFkTbJ2lRXl8zMbSV4/Q4Mz/m88S7xGV5L\nlXHNYngoINSQZjSvjPtqe8CpmlbxNBiAr+0/TG6FE+HFuk95MJZsNz2y898ht7k1\n0qLhGgBlFhZbpztsIWc3iRKv7QKBgQDb9tZ68MlgMDXYaEHwDPr5lwP/BHquSjJw\nWWLaBtLygd8poE5SsN2D1spWcXxWb1aj9NKX8ivTcDxSjrsfq20sOiBtjcaZybc1\nvmAc9zL1TjKnK5Ao3llLsMiOpeT+lkNjVXtaGhCsH5zaFn9C1B4zUn+dy5xGX+vC\nr+eDwFCwdwKBgDwhwpX80fgx29HF6C4LJ1R1RRP+Xg2wqC3HnpdU5f0olKqflhKw\nXlVr31H7Q8Ok7xT7KFoMq/zQECxhjqwA+tkanMTBwqZuj3UYdgKppPRsCbP2ieWH\nddcOqnm2rzA4w7V1FZ/FET2v1PJkzDSFXHJToDb/23B2W65qsLdBqBC9AoGBAMBM\nRSlpg8NRomE0lCCWWHsG6PlzIwVn3DyYCHFu8dAMddpgSNjFwoJVrsJvqDGwWGAx\n0kH/9wx73GCYY0LGjUTS9DKSdYNQ85hKfKAWBDisSmAXF4qDCDHBtTPwGAfxuawH\nuTUGAHlZkbifXlZANr7LasG6lT548RVczttBr8j1AoGAB6sO83eZf/cjXS3OIOl0\nkTxUO5JMEjg8fxxrhKYd8w8Nr16Ow7Q3zYl2AQpNO6qWNs7J51TJihoiCgGdlpOK\n1HFo4yTcUeBN85WHrSkivfSjSmw9KRk5vIo1dsZw/BQz12uBoQiqh+a9xDqcEveo\no5Xni9bSS8UPWXnWCCtUge8=\n-----END PRIVATE KEY-----\n",
+  "client_email": "google-speech@mythic-chalice-206006.iam.gserviceaccount.com",
+  "client_id": "108269910264800091477",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/google-speech%40mythic-chalice-206006.iam.gserviceaccount.com"
+}

@@ -1,0 +1,17 @@
+.book-cover{
+    height: 500px;
+    margin: 8px 12px;
+}
+
+.cover-title{
+    color: #000000;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;    
+}
+
+.live{
+    width: 1100px;
+    height: 600px;
+    margin: 0px 0px 80px 0px;
+}
